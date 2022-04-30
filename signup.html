@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width: 30%;
+            height: 500px;
+            margin: auto;
+            background-color: rgb(96, 202, 119);
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        }
+        #visitor{
+            width: 70%;
+            height: auto;
+            margin:auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
+            background-color: rgb(96, 202, 119);
+        }
+         #containForm{
+            width:70%;
+            height: auto;
+            margin: auto;
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1,auto);
+            gap: 20px;
+            background-color:  rgb(96, 202, 119);
+        } 
+        input{
+            border: 0px;
+            background-color: white;
+            height: 50px;
+            padding: 0px 20px 0px 0px;
+            
+        }
+        #signUp,#return{
+            background-color:  rgb(30, 146, 55);
+            color: white;
+            font-size: 15px;
+        }
+       h1{
+           padding-top: 40px;
+           color: white;
+       }
+       input[type="text"]::placeholder {  
+            padding-left: 10px; 
+         } 
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="visitor"><h1>- Visitor -</h1></div>
+        <div id="containForm">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Organization">
+            <input id="signUp" type="submit" value="SIGN UP">
+            <input id="return" type="submit" value="RETURN">
+        </div>
+        
+           
+        
+    </div>
+</body>
+</html>
+
+<script>
+
+</script>
