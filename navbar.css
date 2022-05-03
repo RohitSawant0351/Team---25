@@ -1,0 +1,27 @@
+
+
+*{
+    padding:0px;
+    margin:0px
+}
+
+    #header{
+        height: 40px;
+        width: 99%;
+        background-color: rgb(3, 3, 62);
+        color: white;
+        font-family: cursive;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    a{
+        
+        color: white;
+    }
+
+
+    #h1{
+        color: white;
+    }
